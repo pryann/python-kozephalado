@@ -14,6 +14,14 @@ nums_list = [x for x in range(10)]
 print(nums_list)
 
 matrix = [[j for j in range(5)] for i in range(3)]
+
+# matrix = []
+# for i in range(3):
+#     row = []
+#     for j in range(5):
+#         row.append(j)
+#     matrix.append(row)
+
 print(matrix)
 
 planets = [
@@ -23,4 +31,11 @@ planets = [
 ]
 
 flat_planets = [planet for sublist in planets for planet in sublist if len(planet) < 6]
+
+# flat_planets = []
+# for sublist in planets:
+#   for planet in sublist:
+#     if len(planet) > 6:
+#       flat_planets.append(planet)
+
 print(flat_planets)
