@@ -3,7 +3,7 @@ class Person:
         self.fname = fname
         self.lname = lname
         self.age = age
-        self.address = address
+        self.__address = address
 
     def get_name(self):
         return f'{self.fname} {self.lname}'
@@ -27,7 +27,7 @@ class Manager(Person):
 
     def print_employees(self):
         for emp in self.employees:
-            print(emp.fname)
+            print(emp.salary)
 
 
 # END SOLUTION

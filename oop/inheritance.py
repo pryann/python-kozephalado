@@ -1,10 +1,10 @@
 class Person:
     def __init__(self, fname, lname):
         self.fname = fname
-        self.lname = lname
+        self.__lname = lname
 
     def print_name(self):
-        print(self.fname, self.lname)
+        print(self.fname, self.__lname)
 
 
 class Student(Person):
@@ -16,7 +16,8 @@ class Student(Person):
         print('Welcome', self.fname)
 
     def print_name(self):
-        print('Print student name: ', self.fname)
+        super().print_name()
+        print('Print student name: ', self.fname, self._Person__lname)
 
 
 p1 = Person('Gergely', 'Gáll')
