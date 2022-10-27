@@ -2,7 +2,7 @@
 Adott egy lista:
 `lista = ["alma", "korte", "zsiraf", "akarat", "haz", "alaptetel"]`
 
-Készíts ebből list comprehensionnel egy új listát amiben csak az `a` betűs szavak vannak benne, és írd ki.
+Készíts ebből list comprehensionnel egy új listát amiben csak az `a` betűvel kezdődő szavak vannak benne, és írd ki.
 
 ## Mit vegyek
 
