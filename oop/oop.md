@@ -32,7 +32,7 @@ Az `Employee` osztály egy olyan személyt valósít meg aki alkalmazott. Ennek 
 
 `fname, lname, age, address, salary, role, manager`
 
-Nem mindenkinek van egyből főnöke, legyen ez opcionálisan megadható. Ha valaki példányosítás után akarja megadni, legyen erre egy `set_manager` belső fuknció a `Employee` osztályon.
+Nem mindenkinek van egyből főnöke, legyen ez opcionálisan megadható. Ha valaki példányosítás után akarja megadni, legyen erre egy `set_manager` belső funkció a `Employee` osztályon.
 
 ---
 
